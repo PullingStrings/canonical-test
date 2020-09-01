@@ -1,0 +1,29 @@
+
+
+// Import the framework
+@import 'node_modules/vanilla-framework/scss/vanilla';
+
+// Include all of Vanilla Framework
+@include vanilla;
+
+h2 {
+  font-size: 15px;
+}
+
+h3 {
+  color: #06c;
+}
+
+.p-card {
+  text-align: left;
+  border: none;
+
+}
+
+.p-card--highlighted {
+  border-top: 2px solid #a87ba0;
+}
+
+.container {
+  padding: 2em 0em;
+}

@@ -26,8 +26,10 @@ class PostList extends Component {
                   <div className="p-card" key={index}>
                     <h2 className="p-card__title">CLOUD AND SERVER</h2>
                 <hr className="u-sv1" />
+                  <a href={post.link}>
                     <img src={post.featured_media} alt="title-cards" />
                       <h3>{post.title.rendered}</h3>
+                  </a>
                       <p><i> By <></>
                       <a href={post._embedded.author[0].url}>
                           {post._embedded.author[0].name}

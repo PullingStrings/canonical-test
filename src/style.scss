@@ -14,10 +14,14 @@ h3 {
   color: #06c;
 }
 
+hr {
+  border-top: 0.5px dotted #00000033;
+  background: none;
+}
+
 .p-card {
   text-align: left;
   border: none;
-
 }
 
 .p-card--highlighted {

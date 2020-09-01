@@ -28,11 +28,11 @@ class PostList extends Component {
                 <hr className="u-sv1" />
                     <img src={post.featured_media} alt="title-cards" />
                       <h3>{post.title.rendered}</h3>
-                      <p><i> By
+                      <p><i> By <></>
                       <a href={post._embedded.author[0].url}>
                           {post._embedded.author[0].name}
-                          </a> <></> on
-                          {Moment(post.date).format('D MMMM YYYY')}
+                          </a> on <></>
+                          {Moment(post.date).format('DD MMMM YYYY')}
                           </i></p>
                 <hr className="u-sv1" />
                     <p><a href={post._embedded["wp:term"][0].name}>Article</a></p>
